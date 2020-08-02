@@ -1,0 +1,194 @@
+.App {
+  display:grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+  background-color: #452f60;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Alert {
+  padding-top:10px;
+  color: red;
+}
+
+
+.HeaderImage {
+  background-image:url("header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height:400px;
+  grid-column-start:1;
+  grid-column-end:13;
+  grid-row-start:1;
+  grid-row-end:5;
+  z-index: 1
+}
+
+.InputC{
+  float:left;
+  width: 100%;
+  margin-top:20px;
+  background-color:transparent;
+  color:#452f60;
+}
+
+.InputC{
+  float:left;
+  width: 100%;
+  margin-top:20px;
+  background-color:transparent;
+  color:#452f60;
+}
+
+.Intro {
+  z-index: 2;
+  grid-column-start:1;
+  grid-column-end:6;
+  grid-row-start: 3;
+  grid-row-end:6;
+  background-color:#000012;
+  margin-left:40px;
+  color:#452f60;
+  font-weight:500;
+  padding:30px;
+  font-size:32px;
+  box-shadow: 1px 1px rgba(69,47,96,0.3);
+}
+
+.Intro p {
+  margin:0;
+}
+
+.Button {
+  float:left;
+  width: 250px;
+  background-color:transparent;
+  color:#452f60;
+  border:2px solid #452f60;
+  font-size:16px;
+  padding:16px;
+  margin-top:32px;
+  margin-left:0px
+}
+
+.Button:nth-child(1) {
+  float:left;
+  width: 250px;
+  background-color:transparent;
+  color:#452f60;
+  border:2px solid #452f60;
+  font-size:16px;
+  padding:16px;
+  margin-top:32px;
+  margin-left:5px;
+
+}
+
+.Body {
+
+}
+
+@media (max-width:500px) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  .Intro {
+    z-index: 2;
+    grid-column-start:1;
+    grid-column-end:13;
+    grid-row-start: 3;
+    grid-row-end:6;
+    background-color:#000012;
+    justify-content: center;
+    margin-left:40px;
+    margin-right:40px;
+    color:#452f60;
+    font-weight:500;
+    padding:30px;
+    font-size:32px;
+    box-shadow: 1px 1px rgba(69,47,96,0.3);
+  }
+
+  .Button {
+    float:left;
+    width: 100%;
+    background-color:transparent;
+    color:#452f60;
+    border:2px solid #452f60;
+    font-size:16px;
+    padding:16px;
+    margin-top:32px;
+  }
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (max-width:500px) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  .Intro {
+    z-index: 2;
+    grid-column-start:1;
+    grid-column-end:13;
+    grid-row-start: 3;
+    grid-row-end:6;
+    background-color:#000012;
+    justify-content: center;
+    margin-left:40px;
+    margin-right:40px;
+    color:#452f60;
+    font-weight:500;
+    padding:30px;
+    font-size:32px;
+    box-shadow: 1px 1px rgba(69,47,96,0.3);
+  }
+
+  .Button {
+    float:left;
+    width: 100%;
+    background-color:transparent;
+    color:#452f60;
+    border:2px solid #452f60;
+    font-size:16px;
+    padding:16px;
+    margin-top:32px;
+  }
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

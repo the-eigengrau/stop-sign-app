@@ -1,0 +1,7 @@
+notebooks/
+src/
+public/
+node_modules/
+data/
+flaskapi/venv
+flaskapi/__pycache__
