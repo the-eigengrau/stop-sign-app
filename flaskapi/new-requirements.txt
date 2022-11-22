@@ -15,5 +15,5 @@ Werkzeug==1.0.1
 python-dotenv
 keras==2.2.4
 tensorflow
-pillow==6.0.0
+pillow==9.3.0
 opencv-python
